@@ -63,7 +63,7 @@ const NavigationBar: FC = () => {
       </div>
       <nav className='items-center justify-end hidden w-full md:inline-flex'>
         {desktopNav}
-        <button className='px-5 py-3 mx-6 font-semibold text-white transition-colors duration-200 rounded-full shadow bg-teal-dark hover:bg-teal'>
+        <button className='px-5 py-3 mx-6 font-semibold text-white transition-colors duration-200 rounded-full shadow bg-teal-dark hover:bg-teal focus:outline-none focus:ring-2 focus:ring-teal-light'>
           Contact
         </button>
       </nav>
