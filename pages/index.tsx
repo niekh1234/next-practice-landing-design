@@ -81,15 +81,15 @@ const Home: FC = () => {
         <section className='flex flex-col items-center px-4 py-16 md:py-32 bg-teal-dark'>
           <div className='grid w-full max-w-6xl grid-cols-1 gap-8 md:grid-rows-1 grid-auto-rows md:space-x-8 md:grid-auto-cols md:grid-flow-col'>
             <div className='md:col-span-2'>
-              <h2 className='text-4xl font-bold text-white sm:text-5xl'>
+              <h2 className='text-3xl font-bold text-white xs:text-4xl sm:text-5xl'>
                 Praesent vestibulum dapibus nibh.
               </h2>
-              <h2 className='mt-4 text-4xl font-bold sm:text-5xl text-teal-darkest'>
+              <h2 className='mt-4 text-3xl font-bold xs:text-4xl sm:text-5xl text-teal-darkest'>
                 Etiam iaculis nunc ac metus.
               </h2>
             </div>
             <div className='flex items-center md:justify-end'>
-              <button className='w-full px-10 py-5 text-lg font-bold transition-colors duration-500 bg-white rounded-full shadow-lg sm:w-auto text-teal-dark hover:bg-teal-lighter hover:text-teal-darker focus:outline-none focus:ring-2 focus:ring-teal-light'>
+              <button className='w-full px-10 py-3 text-lg font-bold transition-colors duration-500 bg-white rounded-full shadow-lg sm:py-5 sm:w-auto text-teal-dark hover:bg-teal-lighter hover:text-teal-darker focus:outline-none focus:ring-2 focus:ring-teal-light'>
                 Get in touch
               </button>
             </div>

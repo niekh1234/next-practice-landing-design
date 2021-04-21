@@ -33,7 +33,7 @@ const Card = (props: Props) => {
         </div>
         <div className='flex flex-col w-full md:px-4 md:items-center'>
           <h3 className='text-2xl font-bold text-black md:text-center '>{props.title}</h3>
-          <p className='mt-2 text-lg text-teal-darker xs:mt-4 md:text-center max-w-32'>
+          <p className='mt-2 text-lg text-teal-darker sm:mt-4 md:text-center max-w-32'>
             {props.description}
           </p>
         </div>

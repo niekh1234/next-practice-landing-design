@@ -16,7 +16,9 @@ const TabItem = (props: Props) => {
         <h4 className='text-3xl font-bold sm:text-4xl text-teal-dark'>{props.tab.title}</h4>
         <p className='w-full mt-4 text-lg sm:mt-8 text-grey-darker'>{props.tab.description}</p>
         <div className='w-full mt-8'>
-          <div className='max-w-sm mx-auto mb-4 lg:max-w-lg lg:mx-0'>{props.tab.svg}</div>
+          <div className='max-w-xs mx-auto mb-4 sm:max-w-sm lg:max-w-lg lg:mx-0'>
+            {props.tab.svg}
+          </div>
         </div>
       </div>
     </div>

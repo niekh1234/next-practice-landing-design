@@ -6,7 +6,7 @@ const TestimonialCards = () => {
       <Fade fraction={0.3} triggerOnce className='flex flex-col items-start w-full'>
         <div className='flex flex-col items-center max-w-5xl p-8 space-y-8 md:space-x-8 md:flex-row bg-pink-lightest'>
           <div className='p-4'>
-            <div className='flex items-center justify-center w-32 h-32 rounded-full md:w-48 md:h-48 bg-pink'>
+            <div className='flex items-center justify-center w-48 h-48 rounded-full bg-pink'>
               <div className='w-12 h-12 rounded-full md:w-16 md:h-16 bg-pink-light'></div>
             </div>
           </div>
@@ -25,7 +25,7 @@ const TestimonialCards = () => {
       <Fade fraction={0.3} triggerOnce className='flex flex-col items-end w-full'>
         <div className='flex flex-col items-center max-w-5xl p-8 space-y-8 md:space-x-8 md:flex-row bg-teal-lightest'>
           <div className='p-4'>
-            <div className='flex items-center justify-center w-32 h-32 rounded-full md:w-48 md:h-48 bg-teal'>
+            <div className='flex items-center justify-center w-48 h-48 rounded-full bg-teal'>
               <div className='w-12 h-12 rounded-full md:w-16 md:h-16 bg-teal-light'></div>
             </div>
           </div>
