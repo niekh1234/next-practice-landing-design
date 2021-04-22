@@ -20,7 +20,7 @@ const TabList = (props: Props) => {
       <button
         onClick={() => changeTab(item.listTitle)}
         className={`mx-auto py-2 w-32 flex justify-center items-center text-xl md:text-2xl font-black text-teal-darkest transition-colors duration-200 focus:outline-none hover:text-teal rounded-full ${
-          item.listTitle === props.tab ? 'text-teal-dark bg-teal-lighter' : 'text-white'
+          item.listTitle === props.tab ? ' bg-teal-lighter' : 'text-white'
         }`}
       >
         <p>{item.listTitle}</p>

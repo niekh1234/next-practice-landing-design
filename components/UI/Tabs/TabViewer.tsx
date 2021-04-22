@@ -20,28 +20,28 @@ const TabViewer = () => {
       title: 'Etiam rhoncus. Maecenas tempus',
       description:
         'Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.',
-      svg: <TabOne></TabOne>,
+      svg: <TabTwo></TabTwo>,
     },
     {
       listTitle: 'Tab 2',
       title: 'Nam quam nunc, blandit vel, luctus pulvinar, hendrerit',
       description:
         'Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.',
-      svg: <TabTwo></TabTwo>,
+      svg: <TabOne></TabOne>,
     },
     {
       listTitle: 'Tab 3',
       title: 'Etiam rhoncus. Maecenas tempus',
       description:
         'Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.',
-      svg: <TabOne></TabOne>,
+      svg: <TabTwo></TabTwo>,
     },
     {
       listTitle: 'Tab 4',
       title: 'Nam quam nunc, blandit vel, luctus pulvinar, hendrerit',
       description:
         'Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.',
-      svg: <TabTwo></TabTwo>,
+      svg: <TabOne></TabOne>,
     },
   ];
 
