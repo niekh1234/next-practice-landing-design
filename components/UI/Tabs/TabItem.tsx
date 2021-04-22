@@ -12,7 +12,7 @@ type Props = {
 const TabItem = (props: Props) => {
   return (
     <div className='flex flex-col items-end w-full h-full col-span-1 row-span-3 p-4 mb-auto rounded-2xl md:p-0'>
-      <div className='flex flex-col h-full max-w-3xl pr-8'>
+      <div className='flex flex-col h-full max-w-3xl md:pr-8'>
         <h4 className='text-3xl font-bold text-center xs:text-4xl text-teal-darkest md:text-5xl md:text-left'>
           {props.tab.title}
         </h4>
